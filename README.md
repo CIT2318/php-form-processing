@@ -1,6 +1,6 @@
 # Basic Form Processing with PHP
 
-Put the files *page_design_form.html* and *display_page.php* on a web server. View the pages in a browser. When the user submits the form *display_page.php* should be displayed. 
+Put the files *page_design_form.html* and *display_page.php* on a web server. View the pages in a browser. When the user submits the form (*page_design_form.html*) then *display_page.php* should be displayed. 
 
 1. Exercise 1
     * In *display_page.php* output the data the user has entered into the form. Start off by simply displaying the text the user has entered into the first text box. Once you've got this to work, output the other values from the form. 
