@@ -15,3 +15,4 @@ Put the files *page_design_form.html* and *display_page.php* on a web server. Ma
     * Do some research into the *htmlspecialchars()* function and how it can help defend against malicious code.
 3. Exercise 3 - Make a 'postback' form
     * Modify your application to create a 'postback' form, where the PHP code and the HTML form are in a single file.
+    * If you can get this to work, think about how you re-populate the form with the values the user has entered previously. There is an example of the notes describing how to do this for a textbox. 
