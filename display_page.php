@@ -1,7 +1,3 @@
-<?php
-//Add your PHP code in here
-$message="Hello world";
-?>
 <!DOCTYPE HTML>
 <html>
 <head>
