@@ -1,9 +1,6 @@
 <?php
-$bg_colour = $_POST["bg_colour"];
-$txt_colour = $_POST["txt_colour"];
-$font = $_POST["font"];
-$heading_txt = $_POST["heading_txt"];
-$main_txt = $_POST["main_txt"];
+//Add your PHP code in here
+$message="Hello world";
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -13,16 +10,13 @@ $main_txt = $_POST["main_txt"];
 </head>
 <style>
 body{
-    background-color:<?php echo $bg_colour;?>;
-    color:<?php echo $txt_colour;?>;
-    font-family:<?php echo $font;?>;
+    background-color:#153641;
+    color:#6DB3BF;
+    font-family:Arial, Helvetica, Sans-serif;
 }
 </style>
 <body>
-
-<?php 
-echo "<h1>".$heading_txt."</h1>";
-echo "<p>".$main_txt."</p>";
-?>
+<h1>This is a simple PHP page</h1>
+<p>This is a paragraph</p>
 </body>
 </html>
