@@ -21,8 +21,8 @@ body{
 <body>
 
 <?php 
-echo "<h1>".$heading_txt."</h1>";
-echo "<p>".$main_txt."</p>";
+echo "<h1>{$heading_txt}</h1>";
+echo "<p>{$main_txt}</p>";
 ?>
 </body>
 </html>
