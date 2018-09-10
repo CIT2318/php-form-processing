@@ -67,8 +67,8 @@ body{
 if($errors){
     echo $err_msg;
 }else{
-    echo "<h1>".$heading_txt."</h1>";
-    echo "<p>".$main_txt."</p>";
+    echo "<h1>{$heading_txt}</h1>";
+    echo "<p>{$main_txt}</p>";
 }
 
 ?>
