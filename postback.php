@@ -115,8 +115,8 @@ if($submitted){
   }else{
       echo "<h2>Here's your page...</h2>";
       echo "<div class='user-page'>";
-      echo "<h1>".$heading_txt."</h1>";
-      echo "<p>".$main_txt."</p>";
+      echo "<h1>{$heading_txt}</h1>";
+      echo "<p>{$main_txt}</p>";
       echo "</div>";
 
   }
