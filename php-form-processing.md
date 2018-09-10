@@ -123,10 +123,10 @@ To do this we use a PHP function, *isset()*. Here's a simple (and pointless) exa
 <?php
 $someVar;
 if(isset($someVar)){
-    echo "$someVar exists"; //echo statement is run, $someVar exists
+    echo "someVar exists"; //echo statement is run, $someVar exists
 }
 if(isset($aDifferentVar)){
-    echo "$aDifferentVar exists"; //echo statement not run, $aDifferentVar doesn't exist
+    echo "aDifferentVar exists"; //echo statement not run, $aDifferentVar doesn't exist
 }
 ?>
 ```
@@ -185,7 +185,7 @@ if(isset($_POST["answer"])==true){
     if($answer=='Caracas'){
         echo 'Well done you are correct';
     }else{
-        echo "You answered ".$answer.' that\'s not right';
+        echo "You answered {$answer} that\'s not right';
     }
 }else{
     echo 'You didn\'t answer, go back and try again';
@@ -233,7 +233,7 @@ A common approach when form processing is to store values from $\_POST in anothe
 <?php
 $uname=$_POST["uname"];
 $col=$_POST["col"];
-echo "Your favourite colour is ".$col;
+echo "Your favourite colour is {$col}";
 ?>
 ```
 
@@ -288,7 +288,7 @@ if(isset($_POST['submitBtn'])){ //has the form been submitted
 if($errors){
     echo $err_msg;
 }else{
-    echo "<p>Username:".$uname." Colour:".$col."</p>";
+    echo "<p>Username:{$uname} Colour:{$col}</p>";
 }
 ?>
 </body>
@@ -342,7 +342,7 @@ if(isset($_POST["answerBtn"]))
 </head>
 <body>
 <?php
-echo "<p>".$msg."</p>";
+echo "<p>{$msg}</p>";
 ?>
 </body>
 </html>
@@ -383,7 +383,7 @@ if(isset($_POST["answerBtn"]))
 </form>
 
 <?php
-echo "<p>".$msg."</p>";
+echo "<p>{$msg}</p>";
 ?>
 </body>
 </html>

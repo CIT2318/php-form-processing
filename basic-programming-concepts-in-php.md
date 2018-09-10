@@ -73,11 +73,10 @@ If we use double quotes the variables in a string will be evaluated e.g.
 <?php
 $name="Bob";
 $job="mechanic";
-echo "<p>Hi, my name is $name. I work as a $job<p>"; //<p>Hi, my name is Bob . I work as a mechanic</p>
+echo "<p>Hi, my name is {$name}. I work as a {$job}<p>"; //<p>Hi, my name is Bob . I work as a mechanic</p>
 ?>
 ```
-
-If we use single quotes the variable won't be evaluated e.g.
+* If we use single quotes the variable won't be evaluated e.g.
 
 ```php
 <?php
@@ -173,7 +172,7 @@ if($score>=60 && $score<70){
 //if $uName has a value of Bill or Bob the message is displayed
 $uName="Ben";
 if($uName=="Bill" || $uName=="Bob"){
-    echo 'Welcome '.$uName;
+    echo "Welcome {$uName}";
 }
 ?>
 ```
