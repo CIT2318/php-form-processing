@@ -67,7 +67,7 @@ And two special types
 * NULL (A variable with no value)
 
 ### Generating output
-If we use double quotes the variables in a string will be evaluated e.g.
+If we use double quotes (and curly brackets around the variable) the variables in a string will be evaluated e.g.
 
 ```php
 <?php
