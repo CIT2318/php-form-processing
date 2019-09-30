@@ -2,14 +2,14 @@
 
 Put the files *page_design_form.html* and *display_page.php* on a web server. Make sure you can view the pages in a browser. When the user submits the form (*page_design_form.html*)  *display_page.php* should be displayed.
 
-1. Add some PHP tags to *display_page.php*. Experiment with creating some simple variables and echoing out messages in this page. See [Basic Programming Concepts in PHP](basic-programming-concepts-in-php.md) for some examples.
+1. Add some PHP tags to *display_page.php*. Experiment with creating some simple variables and echoing out messages in this page. 
 
-2. Open *page_design_form.html*. Click the submit button. Make sure you understand why the browser navigates to *display_page.php*. 
+2. Open *page_design_form.html*. Click the submit button. Make sure you understand why the browser navigates to *display_page.php*.
     + To test your understanding edit the code in *page_design_form.html* so that the University homepage is loaded instead when the submit button is clicked. Once you've got this to work, set it back to load *display_page.php*.
 
-3. In *display_page.php* think about how you can display the data the user has entered into *page_design_form.html* i.e. if they type 'hello' into the first textbox, 'hello' should be displayed in *display_page.php*. 
+3. In *display_page.php* think about how you can display the data the user has entered into *page_design_form.html* i.e. if they type 'hello' into the first textbox, 'hello' should be displayed in *display_page.php*.
     + Have a look at notes on [PHP Form Processing](php-form-processing.md) for similar examples
-    + If you can get this to work, display the text from the first textbox as a H1 element and the text from the second textbox as a paragraph element. 
+    + If you can get this to work, display the text from the first textbox as a H1 element and the text from the second textbox as a paragraph element.
 
 4. Add the following radio buttons to the HTML form:
 ```html
@@ -29,10 +29,10 @@ Put the files *page_design_form.html* and *display_page.php* on a web server. Ma
 </fieldset>
 ```
 
-+ In *display_page.php* print out the colours the user has chosen. 
++ In *display_page.php* print out the colours the user has chosen.
 + *display_page.php* already contains some CSS. Can you dynamically generate some of these CSS values so that the user’s choice of colours are used in the page.
 
-5. Add the following select menu to the HTML page. 
+5. Add the following select menu to the HTML page.
 ```html
 <fieldset>
 <label for="font">Choose a font</label>
@@ -56,6 +56,4 @@ Put the files *page_design_form.html* and *display_page.php* on a web server. Ma
     * Do some research into the *htmlspecialchars()* function and how it can help defend against malicious code.
 7. Make a 'postback' form
     * Modify your application to create a 'postback' form, where the PHP code and the HTML form are in a single file.
-    * If you can get this to work, think about how you re-populate the form with the values the user has entered previously. There is an example on the notes describing how to do this for a textbox. 
-
-
+    * If you can get this to work, think about how you re-populate the form with the values the user has entered previously. There is an example on the notes describing how to do this for a textbox.
