@@ -2,7 +2,7 @@
 
 Put the files *page_design_form.html* and *display_page.php* on a web server. Make sure you can view the pages in a browser. When the user submits the form (*page_design_form.html*)  *display_page.php* should be displayed.
 
-1. Add some PHP tags to *display_page.php*. Experiment with creating some simple variables and echoing out messages in this page. 
+1. Add some PHP tags to *display_page.php*. Experiment with creating some simple variables and echoing out messages in this page.
 
 2. Open *page_design_form.html*. Click the submit button. Make sure you understand why the browser navigates to *display_page.php*.
     + To test your understanding edit the code in *page_design_form.html* so that the University homepage is loaded instead when the submit button is clicked. Once you've got this to work, set it back to load *display_page.php*.
