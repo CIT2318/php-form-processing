@@ -185,7 +185,7 @@ if(isset($_POST["answer"])==true){
     if($answer=='Caracas'){
         echo 'Well done you are correct';
     }else{
-        echo "You answered {$answer} that\'s not right';
+        echo "You answered {$answer} that\'s not right";
     }
 }else{
     echo 'You didn\'t answer, go back and try again';
